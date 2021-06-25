@@ -1,0 +1,466 @@
+@media only screen and (max-width : 1550px) {
+
+    .main__rectangle {
+        width: 300px;
+        height: 300px;
+        margin-bottom: 45px;
+    }
+
+    .main__text {
+        font-size: 12px;
+        line-height: 19px;
+    }
+
+    .season {
+        padding: 30px 24px;
+
+        &__clock-block:not(:last-child) {
+            margin-right: 12px;
+        }
+    }
+
+    .card {
+        width: 200px;
+
+        &__link {
+            height: 250px;
+        }
+
+        &__img {
+            width: 171px;
+            height: 170px;
+        }
+
+        &__title {
+            font-size: 14px;
+            line-height: 19px;
+        }
+
+        &__text {
+            font-size: 13px;
+            line-height: 16px;
+        }
+    }
+}
+
+@media only screen and (max-width : 1224px) {
+
+    .season {
+        padding: 30px 35px;
+
+        &__clock-block:not(:last-child) {
+            margin-right: 15px;
+        }
+
+        &__clock-block:last-child {
+            display: none;
+        }
+    }
+
+    .card {
+
+        &__link {
+            height: 230px;
+        }
+
+        &__img {
+            width: 151px;
+            height: 150px;
+        }
+
+        &__title {
+            font-size: 14px;
+            line-height: 19px;
+        }
+
+        &__text {
+            font-size: 13px;
+            line-height: 16px;
+        }
+    }
+}
+
+@media only screen and (max-width : 950px) {
+
+    .title {
+        font-size: 27px;
+    }
+
+    .text {
+        font-size: 12px;
+    }
+
+    .season {
+        padding: 30px 35px;
+    }
+
+    .new-collection {
+        &__btn {
+            padding: 4px 15px;
+            font-size: 15px;
+        }
+    }
+
+    .card {
+        width: 181px;
+
+        &__link {
+            height: 230px;
+        }
+
+        &__img {
+            width: 151px;
+            height: 150px;
+        }
+
+        &__title {
+            font-size: 14px;
+            line-height: 19px;
+        }
+
+        &__text {
+            font-size: 13px;
+            line-height: 16px;
+        }
+    }
+}
+
+@media only screen and (max-width : 849px) {
+
+    .title {
+        font-size: 27px;
+    }
+
+    .text {
+        font-size: 12px;
+    }
+
+    .season {
+        padding: 30px 35px;
+
+        &__clock-block:not(:last-child) {
+            margin-right: 15px;
+        }
+
+        &__clock-block:last-child {
+            display: none;
+        }
+    }
+
+    .new-collection {
+        &__btn {
+            padding: 4px 15px;
+            font-size: 15px;
+        }
+    }
+
+    .new-arrivals {
+        &__block:nth-of-type(1n + 7) {
+            display: none;
+        }
+
+        &__block {
+            margin-right: 23px;
+        }
+
+        &__block:nth-of-type(3n) {
+            margin-right: 0;
+        }
+    }
+
+    .card {
+        width: 181px;
+
+        &__link {
+            height: 230px;
+        }
+
+        &__img {
+            width: 151px;
+            height: 150px;
+        }
+
+        &__title {
+            font-size: 14px;
+            line-height: 19px;
+        }
+
+        &__text {
+            font-size: 13px;
+            line-height: 16px;
+        }
+    }
+
+    .categories__link {
+        font-size: 12px;
+        padding: 6px 15px;
+    }
+}
+
+@media only screen and (max-width : 790px) {
+
+    .title {
+        font-size: 25px;
+    }
+
+    .text {
+        font-size: 10px;
+    }
+
+    .season {
+        padding: 55px 20px;
+
+        &__clock-block:last-child {
+            display: block;
+        }
+
+        width: 100%;
+    }
+
+    .new-collection {
+        display: none;
+
+        &__btn {
+            padding: 4px 15px;
+            font-size: 15px;
+        }
+    }
+
+    .collection-2018 {
+        &__left {
+            display: none;
+        }
+
+        &__right {
+            width: 100%;
+            background: url(../img/collection-bg.jpg);
+        }
+    }
+
+    .new-arrivals {
+        padding: 50px 0;
+
+        &__block:nth-of-type(1n + 7) {
+            display: none;
+        }
+
+        &__block:nth-of-type(3n) {
+            margin-right: 0;
+        }
+    }
+
+    .card {
+        width: 181px;
+
+        &__link {
+            height: 230px;
+        }
+
+        &__img {
+            width: 151px;
+            height: 150px;
+        }
+
+        &__title {
+            font-size: 14px;
+            line-height: 19px;
+        }
+
+        &__text {
+            font-size: 13px;
+            line-height: 16px;
+        }
+    }
+
+    .categories__link {
+        font-size: 12px;
+        padding: 6px 15px;
+    }
+
+    .information__inner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-shop,
+    .categories,
+    .mailing {
+        display: none;
+    }
+
+    .footer-title {
+        display: none;
+    }
+
+    .footer__drop-down {
+        position: relative;
+        align-items: center;
+        border: 1px solid #fff;
+        border-bottom: none;
+        line-height: 15px;
+        text-align: center;
+        width: 50%;
+        cursor: pointer;
+        padding: 5px 0;
+        transition: .3s;
+    }
+
+    .footer__drop-down:last-child {
+        border-bottom: 1px solid #fff;
+    }
+
+    .footer__drop-down:hover {
+        background: rgba(255, 255, 255, 0.5);
+        color: #000;
+    }
+
+    .drop-down-title {
+        display: block;
+        cursor: pointer;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        text-transform: uppercase;
+    }
+
+    .drop-down__input {
+        display: inline-block;
+        width: 0;
+        height: 0;
+        -webkit-appearance: none;
+        appearance: none;
+        position: absolute;
+    }
+
+    .drop-down__input:checked+.drop-down__inner {
+        padding: 20px 0;
+        margin: 0;
+        text-align: center;
+        display: block;
+    }
+
+    .categories__links,
+    .mailing__form {
+        flex-wrap: wrap;
+        justify-content: center;
+
+        &_input {
+            width: 160px;
+        }
+    }
+}
+
+@media only screen and (max-width : 670px) {
+    .header {
+        height: fit-content;
+
+        &__content {
+            font-size: 9px;
+            line-height: 22px;
+        }
+
+        &__phone-link {
+            padding-left: 17px;
+        }
+
+        &__phone-link::before {
+            top: 3px;
+        }
+
+        &__login-link::before {
+            top: 3px;
+        }
+    }
+
+    .menu-btn {
+        display: flex;
+    }
+
+    .dashboard__menu-ul {
+        display: block;
+        position: absolute;
+        left: 0;
+        right: 0;
+        font-size: 15px;
+        text-align: center;
+        background: rgba(255, 255, 255, .4);
+        transform: translateY(-300px);
+        transition: .3s ease-in;
+        opacity: 0;
+    }
+
+    .dashboard__menu-link {
+        width: 100%;
+    }
+
+    .menu-btn.open+.dashboard__menu-ul {
+        transition: .5s ease-in;
+        opacity: 1;
+        transform: translateY(80px);
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .main__rectangle {
+        width: 250px;
+        height: 250px;
+    }
+
+    .season {
+        &__clocks {
+            flex-wrap: wrap;
+        }
+
+        &__clock-block {
+            margin-bottom: 40px;
+        }
+
+        &__clock-block:nth-child(n + 3) {
+            display: none;
+        }
+
+        &__clock-block:not(:last-child) {
+            margin-right: 8px;
+        }
+    }
+
+    .collection-2018 {
+        &__right_text {
+            margin: 0 20px 61px;
+        }
+
+        &__right_btn {
+            font-size: 14px;
+        }
+    }
+
+    .new-arrivals {
+        justify-content: space-around;
+        &__block:nth-of-type(1n + 3) {
+            display: none;
+        }
+
+        &__block:not(:nth-of-type(4n)) {
+            margin-right: 8px;
+        }
+    }
+
+    .our-brands__image:not(:last-child) {
+        margin-right: 15px;
+    }
+
+    .mailing__form {
+
+        &_input {
+            width: 138px;
+        }
+
+        &_subscribe-btn {
+            width: 138px;
+        }
+    }
+}
